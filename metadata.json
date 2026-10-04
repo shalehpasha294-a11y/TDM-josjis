@@ -1,0 +1,8 @@
+{
+  "name": "Muda-Mudi Tri Dharma Manunggal",
+  "description": "Website resmi Muda-Mudi / Karang Taruna Tri Dharma Manunggal RW 1 Desa Pojok, Tawangsari, Sukoharjo. Pusat informasi kegiatan, program kerja, berita, UMKM, transparansi keuangan, dan sistem manajemen pemuda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

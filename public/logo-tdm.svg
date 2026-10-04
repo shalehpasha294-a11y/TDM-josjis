@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Top arc for text: clockwise from 200 deg to -20 deg -->
+    <path id="tdm-top-arc" d="M 40,250 A 210,210 0 0,1 460,250" fill="none" />
+    <!-- Bottom arc for text: drawn from right to left so text is right-side up -->
+    <path id="tdm-bottom-arc" d="M 460,250 A 210,210 0 0,1 40,250" fill="none" />
+  </defs>
+  <!-- Circular Base Disc -->
+  <circle cx="250" cy="250" r="246" fill="#ffffff" />
+  <!-- Outer Border Ring -->
+  <circle cx="250" cy="250" r="238" fill="none" stroke="#0052cc" stroke-width="7" />
+  <!-- Inner Border Ring (framing the central triangle) -->
+  <circle cx="250" cy="250" r="176" fill="none" stroke="#0052cc" stroke-width="4.5" />
+  <!-- Circular Text -->
+  <text fill="#0052cc" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="2.6">
+    <textPath href="#tdm-top-arc" startOffset="50%" text-anchor="middle">
+      PAGUYUBAN MUDA - MUDI RW 1 DESA POJOK
+    </textPath>
+  </text>
+  <text fill="#0052cc" font-family="system-ui, -apple-system, 'Plus Jakarta Sans', Arial, sans-serif" font-size="23" font-weight="900" letter-spacing="3.5">
+    <textPath href="#tdm-bottom-arc" startOffset="50%" text-anchor="middle">
+        TRI DHARMA MANUNGGAL      
+    </textPath>
+  </text>
+  <!-- Blue Triangle touching inner ring -->
+  <polygon points="250,74 98,338 402,338" fill="#0052cc" />
+  <!-- Inner Circle intersecting the triangle -->
+  <circle cx="250" cy="250" r="116" fill="#ffffff" stroke="#0052cc" stroke-width="5" />
+  <!-- Center Figure: Youth Figure + '1' + 'TDM' + Pedestal -->
+  <!-- Head of figure (solid blue dot) -->
+  <circle cx="250" cy="184" r="13" fill="#0052cc" />
+  <!-- Number '1' top hook/flag -->
+  <polygon points="250,198 227,214 233,222 250,210" fill="#0052cc" />
+  <!-- Stem of '1' (upper section) -->
+  <rect x="243" y="204" width="14" height="32" fill="#0052cc" />
+  <!-- Central TDM typography -->
+  <text x="250" y="267" fill="#0052cc" font-family="system-ui, -apple-system, 'Cabinet Grotesk', Impact, Arial Black, sans-serif" font-size="56" font-weight="900" text-anchor="middle" letter-spacing="-0.5">
+    TDM
+  </text>
+  <!-- Stem of '1' continuing below TDM -->
+  <rect x="243" y="274" width="14" height="20" fill="#0052cc" />
+  <!-- Base Pedestal under the number '1' -->
+  <rect x="214" y="294" width="72" height="9" rx="2" fill="#0052cc" />
+</svg>
